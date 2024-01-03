@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1349D42B2CCD89002457FB /* drop_004.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7F1349D32B2CCD89002457FB /* drop_004.m4a */; };
+		7F1349D62B2CCD94002457FB /* switch_007.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7F1349D52B2CCD94002457FB /* switch_007.m4a */; };
+		7F1349D82B2CCEAB002457FB /* close_002.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7F1349D72B2CCEAB002457FB /* close_002.m4a */; };
+		7F75D82D2B2DD59D0033065B /* PlayerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75D82C2B2DD59D0033065B /* PlayerStats.swift */; };
+		7F75D82F2B2E31E50033065B /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75D82E2B2E31E50033065B /* GameState.swift */; };
+		7FC27F6D2B29B1D900800E66 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC27F6C2B29B1D900800E66 /* Dictionary.swift */; };
+		7FD3A9E42ABA21B6003C8EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3A9E32ABA21B6003C8EDF /* ContentView.swift */; };
+		7FD3A9E62ABA21B6003C8EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3A9E52ABA21B6003C8EDF /* Assets.xcassets */; };
+		7FD3AA0C2ABA2432003C8EDF /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3AA0B2ABA2432003C8EDF /* Player.swift */; };
+		7FD3AA102ABA2471003C8EDF /* DartGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3AA0F2ABA2471003C8EDF /* DartGame.swift */; };
+		7FD3AA122ABA249C003C8EDF /* GameSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3AA112ABA249C003C8EDF /* GameSetupView.swift */; };
+		7FD3AA162ABA2A93003C8EDF /* DartsScoringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3AA152ABA2A93003C8EDF /* DartsScoringApp.swift */; };
+		7FF253FC2B2B9C5900A6C5D6 /* confirmation_002.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FF253FB2B2B9C5900A6C5D6 /* confirmation_002.m4a */; };
+		7FF253FE2B2B9C6800A6C5D6 /* question_004.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FF253FD2B2B9C6800A6C5D6 /* question_004.m4a */; };
+		7FF254002B2B9EFC00A6C5D6 /* back_002.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FF253FF2B2B9EFC00A6C5D6 /* back_002.m4a */; };
+		7FF254042B2B9F0B00A6C5D6 /* minimize_006.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FF254012B2B9F0B00A6C5D6 /* minimize_006.m4a */; };
+		7FF254052B2B9F0B00A6C5D6 /* switch_002.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FF254022B2B9F0B00A6C5D6 /* switch_002.m4a */; };
+		7FF254062B2B9F0B00A6C5D6 /* minimize_009.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FF254032B2B9F0B00A6C5D6 /* minimize_009.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F1349D32B2CCD89002457FB /* drop_004.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = drop_004.m4a; sourceTree = "<group>"; };
+		7F1349D52B2CCD94002457FB /* switch_007.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = switch_007.m4a; sourceTree = "<group>"; };
+		7F1349D72B2CCEAB002457FB /* close_002.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = close_002.m4a; sourceTree = "<group>"; };
+		7F75D82C2B2DD59D0033065B /* PlayerStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStats.swift; sourceTree = "<group>"; };
+		7F75D82E2B2E31E50033065B /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		7FC27F6C2B29B1D900800E66 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		7FD3A9DE2ABA21B6003C8EDF /* DartsScoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DartsScoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD3A9E32ABA21B6003C8EDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FD3A9E52ABA21B6003C8EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FD3AA0B2ABA2432003C8EDF /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		7FD3AA0F2ABA2471003C8EDF /* DartGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartGame.swift; sourceTree = "<group>"; };
+		7FD3AA112ABA249C003C8EDF /* GameSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetupView.swift; sourceTree = "<group>"; };
+		7FD3AA152ABA2A93003C8EDF /* DartsScoringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsScoringApp.swift; sourceTree = "<group>"; };
+		7FF253FB2B2B9C5900A6C5D6 /* confirmation_002.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = confirmation_002.m4a; sourceTree = "<group>"; };
+		7FF253FD2B2B9C6800A6C5D6 /* question_004.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = question_004.m4a; sourceTree = "<group>"; };
+		7FF253FF2B2B9EFC00A6C5D6 /* back_002.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = back_002.m4a; sourceTree = "<group>"; };
+		7FF254012B2B9F0B00A6C5D6 /* minimize_006.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = minimize_006.m4a; sourceTree = "<group>"; };
+		7FF254022B2B9F0B00A6C5D6 /* switch_002.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = switch_002.m4a; sourceTree = "<group>"; };
+		7FF254032B2B9F0B00A6C5D6 /* minimize_009.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = minimize_009.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FD3A9DB2ABA21B6003C8EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FD3A9D52ABA21B6003C8EDF = {
+			isa = PBXGroup;
+			children = (
+				7FD3A9E02ABA21B6003C8EDF /* DartsScoring */,
+				7FD3A9DF2ABA21B6003C8EDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD3A9DF2ABA21B6003C8EDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FD3A9DE2ABA21B6003C8EDF /* DartsScoring.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FD3A9E02ABA21B6003C8EDF /* DartsScoring */ = {
+			isa = PBXGroup;
+			children = (
+				7FF253FA2B2B9C2E00A6C5D6 /* Audio */,
+				7FD3AA152ABA2A93003C8EDF /* DartsScoringApp.swift */,
+				7FD3AA0B2ABA2432003C8EDF /* Player.swift */,
+				7FD3AA0F2ABA2471003C8EDF /* DartGame.swift */,
+				7FD3A9E32ABA21B6003C8EDF /* ContentView.swift */,
+				7FD3AA112ABA249C003C8EDF /* GameSetupView.swift */,
+				7F75D82C2B2DD59D0033065B /* PlayerStats.swift */,
+				7F75D82E2B2E31E50033065B /* GameState.swift */,
+				7FC27F6C2B29B1D900800E66 /* Dictionary.swift */,
+				7FD3A9E52ABA21B6003C8EDF /* Assets.xcassets */,
+			);
+			path = DartsScoring;
+			sourceTree = "<group>";
+		};
+		7FF253FA2B2B9C2E00A6C5D6 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				7F1349D72B2CCEAB002457FB /* close_002.m4a */,
+				7F1349D52B2CCD94002457FB /* switch_007.m4a */,
+				7F1349D32B2CCD89002457FB /* drop_004.m4a */,
+				7FF254012B2B9F0B00A6C5D6 /* minimize_006.m4a */,
+				7FF254032B2B9F0B00A6C5D6 /* minimize_009.m4a */,
+				7FF254022B2B9F0B00A6C5D6 /* switch_002.m4a */,
+				7FF253FF2B2B9EFC00A6C5D6 /* back_002.m4a */,
+				7FF253FD2B2B9C6800A6C5D6 /* question_004.m4a */,
+				7FF253FB2B2B9C5900A6C5D6 /* confirmation_002.m4a */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FD3A9DD2ABA21B6003C8EDF /* DartsScoring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD3AA022ABA21B6003C8EDF /* Build configuration list for PBXNativeTarget "DartsScoring" */;
+			buildPhases = (
+				7FD3A9DA2ABA21B6003C8EDF /* Sources */,
+				7FD3A9DB2ABA21B6003C8EDF /* Frameworks */,
+				7FD3A9DC2ABA21B6003C8EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DartsScoring;
+			productName = DartsScoring;
+			productReference = 7FD3A9DE2ABA21B6003C8EDF /* DartsScoring.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FD3A9D62ABA21B6003C8EDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					7FD3A9DD2ABA21B6003C8EDF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7FD3A9D92ABA21B6003C8EDF /* Build configuration list for PBXProject "DartsScoring" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 7FD3A9D52ABA21B6003C8EDF;
+			productRefGroup = 7FD3A9DF2ABA21B6003C8EDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FD3A9DD2ABA21B6003C8EDF /* DartsScoring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FD3A9DC2ABA21B6003C8EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1349D82B2CCEAB002457FB /* close_002.m4a in Resources */,
+				7FF253FC2B2B9C5900A6C5D6 /* confirmation_002.m4a in Resources */,
+				7FD3A9E62ABA21B6003C8EDF /* Assets.xcassets in Resources */,
+				7FF254002B2B9EFC00A6C5D6 /* back_002.m4a in Resources */,
+				7FF254062B2B9F0B00A6C5D6 /* minimize_009.m4a in Resources */,
+				7F1349D42B2CCD89002457FB /* drop_004.m4a in Resources */,
+				7FF253FE2B2B9C6800A6C5D6 /* question_004.m4a in Resources */,
+				7F1349D62B2CCD94002457FB /* switch_007.m4a in Resources */,
+				7FF254042B2B9F0B00A6C5D6 /* minimize_006.m4a in Resources */,
+				7FF254052B2B9F0B00A6C5D6 /* switch_002.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FD3A9DA2ABA21B6003C8EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD3AA102ABA2471003C8EDF /* DartGame.swift in Sources */,
+				7F75D82D2B2DD59D0033065B /* PlayerStats.swift in Sources */,
+				7FD3A9E42ABA21B6003C8EDF /* ContentView.swift in Sources */,
+				7FD3AA0C2ABA2432003C8EDF /* Player.swift in Sources */,
+				7FD3AA122ABA249C003C8EDF /* GameSetupView.swift in Sources */,
+				7F75D82F2B2E31E50033065B /* GameState.swift in Sources */,
+				7FC27F6D2B29B1D900800E66 /* Dictionary.swift in Sources */,
+				7FD3AA162ABA2A93003C8EDF /* DartsScoringApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7FD3AA002ABA21B6003C8EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FD3AA012ABA21B6003C8EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FD3AA032ABA21B6003C8EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DartsScoring\"";
+				DEVELOPMENT_TEAM = 8T2TSR4L56;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mumsford.DartsScoring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FD3AA042ABA21B6003C8EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DartsScoring\"";
+				DEVELOPMENT_TEAM = 8T2TSR4L56;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mumsford.DartsScoring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FD3A9D92ABA21B6003C8EDF /* Build configuration list for PBXProject "DartsScoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD3AA002ABA21B6003C8EDF /* Debug */,
+				7FD3AA012ABA21B6003C8EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD3AA022ABA21B6003C8EDF /* Build configuration list for PBXNativeTarget "DartsScoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD3AA032ABA21B6003C8EDF /* Debug */,
+				7FD3AA042ABA21B6003C8EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FD3A9D62ABA21B6003C8EDF /* Project object */;
+}
